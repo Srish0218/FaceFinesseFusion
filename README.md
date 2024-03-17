@@ -8,8 +8,6 @@ The objective of FaceFinesseFusion is to provide a user-friendly and efficient p
 2. **Gender Prediction:** Implement a gender prediction model to classify detected faces as male or female.
 3. **Age Prediction:** Employ an age prediction model to estimate the age range of each detected face.
 4. **Support for Multiple Faces:** Enable the detection and analysis of multiple faces within a single image or video frame.
-5. **User-Friendly Interface:** Develop an intuitive user interface that allows users to easily upload images, stream video, and view analysis results.
-6. **Scalability and Performance:** Design the application to handle a large volume of images or video frames efficiently while maintaining high accuracy in face detection and analysis.
 
 By achieving these objectives, FaceFinesseFusion aims to serve as a versatile tool for various use cases, including demographic analysis, security monitoring, and entertainment applications.
 <h2>About the Project :</h2>
@@ -55,91 +53,30 @@ To use your FaceFinesseFusion project, follow these steps:
 If you haven't already, clone the FaceFinesseFusion repository to your local machine using Git. You can do this by running the following command in your terminal or command prompt:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Srish0218/FaceFinesseFusion.git
 ```
 
-Replace `<repository_url>` with the URL of your GitHub repository.
 
 
-### 3. Run the Application:
+### 2. Run the Application:
 
 Once the dependencies are installed, you can run the application. Use the following command:
 
 ```bash
 streamlit run app.py
 ```
+## Demo
+View the live demo to experience FaceFinesseFusion in action!
 
-This command will start the Streamlit application, and you will see the application interface in your web browser.
+## Contributing
+Contributions are welcome! If you have ideas for new features or improvements, please feel free to open an issue or submit a pull request.
 
-### 4. Choose Input Source:
+## Troubleshooting
+If you encounter any issues, check the Troubleshooting guide for common problems and solutions.
 
-In the application interface, you'll see options to choose the input source. You can select either "Upload Photos" or "Live Video (Coming Soon)".
+## License
+This project is licensed under the MIT License. Feel free to use and modify it as per your requirements.
 
-- **Upload Photos**: Click on this option to upload one or more images containing faces. Once uploaded, the system will analyze the images and provide insights such as gender and age predictions for each detected face.
-
-- **Live Video (Coming Soon)**: This option will be available soon. Stay tuned for updates on this feature.
-
-### 5. Analyze Results:
-
-After selecting the input source and uploading images (if applicable), the application will display the processed images with bounding boxes around detected faces. Additionally, it will provide detailed information about each detected face, including gender and age predictions.
-
-### 6. Explore Additional Features:
-
-Feel free to explore additional features and functionalities of the application, such as uploading different types of images, experimenting with various lighting conditions, and analyzing multiple faces in a single image.
-
-### 7. Provide Feedback:
-
-If you have any feedback, suggestions, or issues with the application, you can provide them directly within the application interface or by reaching out to the project maintainers.
-
-By following these steps, you can effectively use your FaceFinesseFusion project to analyze faces in images and potentially live video streams, gaining valuable insights into the gender and age of detected individuals.
-
-Please note that some features may still be under development, so be sure to check for updates and improvements regularly.
-
-# Working:
-[![Watch the video](https://img.youtube.com/vi/ReeccRD21EU/0.jpg)](https://youtu.be/ReeccRD21EU)
-
-<h2>Examples :</h2>
-<p><b>NOTE:- I downloaded the images from Google,if you have any query or problem i can remove them, i just used it for Educational purpose.</b></p>
-
-    >python detect.py --image girl1.jpg
-    Gender: Female
-    Age: 25-32 years
-    
-<img src="Example/Detecting age and gender girl1.png">
-
-    >python detect.py --image girl2.jpg
-    Gender: Female
-    Age: 8-12 years
-    
-<img src="Example/Detecting age and gender girl2.png">
-
-    >python detect.py --image kid1.jpg
-    Gender: Male
-    Age: 4-6 years    
-    
-<img src="Example/Detecting age and gender kid1.png">
-
-    >python detect.py --image kid2.jpg
-    Gender: Female
-    Age: 4-6 years  
-    
-<img src="Example/Detecting age and gender kid2.png">
-
-    >python detect.py --image man1.jpg
-    Gender: Male
-    Age: 38-43 years
-    
-<img src="Example/Detecting age and gender man1.png">
-
-    >python detect.py --image man2.jpg
-    Gender: Male
-    Age: 25-32 years
-    
-<img src="Example/Detecting age and gender man2.png">
-
-    >python detect.py --image woman1.jpg
-    Gender: Female
-    Age: 38-43 years
-    
-<img src="Example/Detecting age and gender woman1.png">
-              
+## Credits
+Developed with ❤ by [Your Name].
+If you have questions, encounter issues, or want to discuss features, please open an issue.
