@@ -20,18 +20,6 @@ By achieving these objectives, FaceFinesseFusion aims to serve as a versatile to
 <h2>Dataset :</h2>
 <p>For this python project, I had used the Adience dataset; the dataset is available in the public domain and you can find it <a href="https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification">here</a>. This dataset serves as a benchmark for face photos and is inclusive of various real-world imaging conditions like noise, lighting, pose, and appearance. The images have been collected from Flickr albums and distributed under the Creative Commons (CC) license. It has a total of 26,580 photos of 2,284 subjects in eight age ranges (as mentioned above) and is about 1GB in size. The models I used had been trained on this dataset.</p>
 
-<h2>Additional Python Libraries Required :</h2>
-<ul>
-  <li>OpenCV</li>
-  
-       pip install opencv-python
-</ul>
-<ul>
- <li>argparse</li>
-  
-       pip install argparse
-</ul>
-
 <h2>The contents of this Project :</h2>
 <ul>
   <li>opencv_face_detector.pbtxt</li>
@@ -56,8 +44,6 @@ If you haven't already, clone the FaceFinesseFusion repository to your local mac
 git clone https://github.com/Srish0218/FaceFinesseFusion.git
 ```
 
-
-
 ### 2. Run the Application:
 
 Once the dependencies are installed, you can run the application. Use the following command:
@@ -78,5 +64,5 @@ If you encounter any issues, check the Troubleshooting guide for common problems
 This project is licensed under the MIT License. Feel free to use and modify it as per your requirements.
 
 ## Credits
-Developed with ❤ by [Your Name].
+Developed with ❤ by [SRISHTI JAITLY](https://github.com/Srish0218).
 If you have questions, encounter issues, or want to discuss features, please open an issue.
