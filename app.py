@@ -1,7 +1,8 @@
-import cv2
 import streamlit as st
-import cv2
+import cv2  # pip install opencv-contrib-python
 import numpy as np
+
+st.set_page_config(page_title="FaceFinesseFusion 🔍 ", page_icon="🏵️")
 
 
 def highlightFace(net, frame, conf_threshold=0.7):
@@ -69,7 +70,8 @@ def main():
                 for faceBox in faceBoxes:
                     face = frame[max(0, faceBox[1] - 20):
                                  min(faceBox[3] + 20, frame.shape[0] - 1), max(0, faceBox[0] - 20):min(faceBox[2] + 20,
-                                 frame.shape[1] - 1)]
+                                                                                                       frame.shape[
+                                                                                                           1] - 1)]
 
                     blob = cv2.dnn.blobFromImage(face, 1.0, (227, 227), MODEL_MEAN_VALUES, swapRB=False)
                     genderNet.setInput(blob)
@@ -95,6 +97,7 @@ def main():
                         st.write(f"Face {i + 1}:")
                         st.write("Gender: ", gender_preds[i])
                         st.write("Age: ", age_preds[i])
+
 
 footer = """<style>
 a:link , a:visited{
