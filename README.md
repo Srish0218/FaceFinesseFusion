@@ -1,4 +1,4 @@
-# Gender-and-Age-Detection   <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Gender-and-Age-Detection">
+# FaceFinesseFusion (Gender-and-Age-Detection)   <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Gender-and-Age-Detection">
 
 
 <h2>Objective :</h2>
@@ -52,7 +52,7 @@ Once the dependencies are installed, you can run the application. Use the follow
 streamlit run app.py
 ```
 ## Demo
-View the live demo to experience FaceFinesseFusion in action!
+> When you deploy this project this gives error related to cv2. So please wait for same web app using flask framework
 
 ## Contributing
 Contributions are welcome! If you have ideas for new features or improvements, please feel free to open an issue or submit a pull request.
